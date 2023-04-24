@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magento</title>
+</head>
+
+<body>
+
+    <header class="fixed">
+        <h1>Magento</h1>
+        <button id="toggle-mode">Alterar Modo</button>
+    </header>
+
+    <main>
+
+        <section class="container">
+            <div class="main-text">
+                <h2>O que é Magento?</h2>
+                <p>Veja neste artigo o que é o Magento.</p>
+            </div>
+        </section>
+
+    </main>
+    <div class="cont1">
+        <p>Magento é um sistema web de e-commerce de código aberto baseado em PHP e MySQL utilizando elementos do
+            Framework Zend, totalmente modular, desenvolvido pela Magento Inc.</p>
+        <p>Magento é lider no e-commerce devido à sua ampla utilização no mercado. Grandes marcas no Brasil e no mundo
+            confiam nessa plataforma.</p>
+        <p>Confira alguns exemplos de marcas globais que utilizam a plataforma: Coca-Cola, Nike, Burger King, Ford,
+            Samsung, entre várias outras.</p>
+        <h1>Para que serve?</h1>
+        <p>O Magento é uma plataforma completa para criação de lojas virtuais de qualquer porte ou segmento, tendo sua
+            primeira versão estável lançada em 2008. De código aberto, escrito em PHP e com o banco de dados MySQL,
+            utiliza elementos do Zend Framework. Atualmente, segue sobre o domínio da Adobe, após sua compra em 2018.
+        </p>
+
+        <img src="https://alxweb.com.br/wp-content/uploads/2020/06/O-que-e%CC%81-Magento-1024x576.jpg" alt="#">
+    </div>
+    <div class="cont2">
+        <h1>Plataforma de e-commerce</h1>
+        <p>Afinal, o que é plataforma de e-commerce? A forma mais simples de entender é visualizar as principais
+            funcionalidades de uma plataforma, que são:</p>
+        <ul>
+            <li>cadastrar produtos;</li>
+            <li>incluir e alterar preços e promoções;</li>
+            <li>controlar estoque;</li>
+            <li>oferecer meios de pagamento como cartão de crédito e boleto;</li>
+            <li>enviar produtos e gestão de pedidos;</li>
+            <li>relatórios e outras funcionalidades.</li>
+        </ul>
+        <h1>Como funciona o Magento</h1>
+        <p>O sistema é escrito totalmente em PHP, que é uma linguagem de script código aberto, de uso geral e muito
+            utilizada pelos programadores. Essa linguagem de programação também é utilizada por diversos sistema web,
+            como WordPress, WooCommerce, Joomla, entre outros.</p>
+        <p>Construído em módulos independentes, o Magento permite que desenvolvedores criem novas funcionalidades de
+            acordo com as necessidades do mercado. Lembrando que outros sistemas para e-commerce também permitem isso,
+            mas o Magento leva o conceito de estrutura modular ao limite extremo.</p>
+        <p>Essa estrutura em módulos torna o sistema muito flexível. Foi exatamente essa característica que permitiu uma
+            rápida adaptação da plataforma ao mercado brasileiro.</p>
+        <h1>Módulos</h1>
+        <p>Os módulos do Magento ajudam, e muito, quando falamos em experiência de compra. Entenda módulo como uma forma
+            de adicionar novas funcionalidades ao seu e-commerce.</p>
+        <p>Alguns dos módulos mais usados e recomendados são: recuperação de carrinhos abandonados, calcular frete na
+            página do produto, seleção de cores e tamanhos, pagamento com cartão de crédito e débito, boleto bancário,
+            integração e cálculo de frete dos correios.</p>
+        <h1>Concluindo</h1>
+        <p>Como vimos neste artigo, o Magento é uma excelente plataforma para criação de lojas online. Utilizado por
+            diversas empresas no mundo, permite a criação de e-commerce de forma gratuita e personalizada.</p>
+    </div>
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GkePF-hBOmA" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div>
+
+
+    <footer>
+        <p id="nomes">Design by: João Guilherme | Kauã Roldão</p>
+        <div class="rodape">
+            <div class="links1">
+                <a href="https://www.linkedin.com/in/jo%C3%A3o-guilherme-grais-dias-8731b1270/" class="linkedin">Linkedin |</a>
+                <a href="mailto:joaoguipoa@gmail.com" class="email">Email //</a>
+            </div>
+            <br>
+            <div class="links2">
+                <a href="https://www.linkedin.com/in/kau%C3%A3-de-o-rold%C3%A3o-28a1b2270/" class="linkedin">Linkedin |</a>
+                <a href="mailto:roldaokaua@gmail.com" class="email">Email</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        const toggleBtn = document.getElementById('toggle-mode')
+        const body = document.body;
+        toggleBtn.addEventListener('click', function () {
+            body.classList.toggle('dark-mode')
+        })
+    </script>
+
+
+</body>
+
+</html>
